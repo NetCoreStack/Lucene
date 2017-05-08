@@ -1,0 +1,1 @@
+### NetCoreStack Lucene (Full Framework)

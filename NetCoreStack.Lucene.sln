@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreStack.Lucene", "NetCoreStack.Lucene\NetCoreStack.Lucene.csproj", "{BE421418-B0CA-4BD7-9734-D894DC5B96AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreStack.Lucene.Test", "NetCoreStack.Lucene.Test\NetCoreStack.Lucene.Test.csproj", "{DB803F57-9B68-4A30-87FF-AE4888E41795}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE421418-B0CA-4BD7-9734-D894DC5B96AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE421418-B0CA-4BD7-9734-D894DC5B96AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE421418-B0CA-4BD7-9734-D894DC5B96AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE421418-B0CA-4BD7-9734-D894DC5B96AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB803F57-9B68-4A30-87FF-AE4888E41795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB803F57-9B68-4A30-87FF-AE4888E41795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB803F57-9B68-4A30-87FF-AE4888E41795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB803F57-9B68-4A30-87FF-AE4888E41795}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

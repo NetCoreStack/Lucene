@@ -83,6 +83,8 @@ namespace NetCoreStack.Lucene.Test
         public void RunIndex()
         {
             LuceneConfig();
+            var items = SampleIndexWriter.SearchAsync("Cicero", int.MaxValue).Result.ToList();
+            Assert.IsTrue(items.Count > 0);
         }
     }
 }
